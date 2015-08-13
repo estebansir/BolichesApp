@@ -1,0 +1,15 @@
+<ion-tabs   class="tabs-icon-top tabs-dark" ng-controller="ListCtrl" >
+    <!-- Boliches Tab -->
+    <ion-tab title="BOLICHES" icon-off="ion-radio-waves orange" icon-on="ion-radio-waves" ui-sref="tabs.boliche">
+      <ion-nav-view name="boliches-tab"></ion-nav-view>
+    </ion-tab>
+    <!-- Bares Tab -->
+    <ion-tab title="BARES" icon-off="ion-beer orange" icon-on="ion-beer" ui-sref="tabs.bares">
+      <ion-nav-view name="bares-tab"></ion-nav-view>
+    </ion-tab>
+    <!-- Cerca Tab -->
+    <ion-tab title="CERCA DE TI" icon-off="ion-ios-location-outline orange" icon-on="ion-ios-location" ui-sref="tabs.geolocation">
+      <ion-nav-view name="geolocation-tab"></ion-nav-view> 
+    </ion-tab>
+</ion-tabs>
+

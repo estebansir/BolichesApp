@@ -1,0 +1,33 @@
+<ion-view view-title="{{boliche.nombre | uppercase}}"  class="background">
+
+  <ion-nav-buttons side="right">
+  <button class="button button-icon icon ion-ios-location" ng-click=""></button>
+  </ion-nav-buttons>
+
+  <ion-content class="boliche">
+    <div style="padding-top: 2%; padding-bottom: 3%; padding-left: 3%; padding-right: 3%;">
+      <img src="{{boliche.logo}}" width="100%" height="265px">
+    </div>
+
+    <div class="row" style="font-size: 11px">
+      <div class="col"><b>Abierto:</b> <br>
+                {{boliche.abierto}}
+      </div>
+      <div class="col"><b>Edades:</b> <br>
+                {{boliche.edades}}
+      </div>
+      <div class="col"><b>Música:</b> <br>
+                {{boliche.musica}}
+      </div>
+    </div>
+    <br>
+    <b style="font-size: 14px">{{boliche.barrio}}</b>, {{boliche.calle}} {{boliche.altura}}<br>
+
+    <p>
+      <span style="font-size: 15px">
+        <b>Descripción:</b> {{boliche.descripcion}}
+      </span>
+    </p>
+    <br>
+  </ion-content >
+</ion-view>

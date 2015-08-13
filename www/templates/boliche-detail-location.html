@@ -1,0 +1,14 @@
+<ion-view view-title="{{boliche.nombre}}" class="list-view-page">
+  <ion-content class "has-header" scroll="true">
+    <ui-gmap-google-map draggable="true" center='map.center' zoom='map.zoom'>
+
+      <ui-gmap-marker coords="marker.coords" idkey="1">
+      </ui-gmap-marker>
+
+      <ui-gmap-marker coords="marker2.coords" idkey="marker2.id" icon="'http://maps.google.com/mapfiles/ms/micons/bar.png'" options="{labelClass:'marker-labels', labelAnchor:'12 60', 
+            labelContent: marker2.nombre}">
+      </ui-gmap-marker>
+
+  </ui-gmap-google-map>
+  </ion-content>
+</ion-view>

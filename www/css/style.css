@@ -1,0 +1,100 @@
+/* Empty. Add your own CSS if you like */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  border: none !important;
+}
+
+.pane {
+    background-color: #240716;
+}
+
+.dark {
+  background-color: #470E2B !important;
+  color: #ffffff;
+}
+
+.violetaosc{
+   background-color: #240716;
+}
+
+.dark .scroll-content {
+  background-color: #000000 !important;
+}
+.dark .item {
+  background-color: #000000;
+  border: none;
+}
+
+.dark h2 {
+  color: #ffffff;
+}
+
+.orange b {
+  color: #FFD175;
+}
+
+.orange {
+  color: #FFD175;
+}
+
+/*No sacar*/
+.boliche{
+	background-color: #000000;
+  color: #ffffff;
+}
+
+/*No sacar*/
+.my-item {
+  left: 0;
+  right: 0;
+}
+
+/* GOOGLE MAPS */
+
+map {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  height: 100%;
+}
+
+.angular-google-map-container {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.angular-google-map {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.marker-labels {
+    color: #FFD175;
+    background-color: #470E2B;
+    font-family: sans-serif, "Lucida Grande", "Arial";
+    opacity: 0.7;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;     
+    border: 1px solid #FFD175;
+    
+    border-radius: 12px;
+}
+
+.allow-bullets ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}

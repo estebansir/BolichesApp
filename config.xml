@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.myapp2962698" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>BoliBaires</name>
+  <description>
+      Boliches y Bares en CapFed
+  </description>
+  <author email="esteban.siracusa@gmail.com" href="http://ionicframework.com/">
+      Estebansir
+  </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="backgroundColor" value="0x00000000"/>
+  <preference name="Fullscreen" value="true"/>
+  <preference name="Orientation" value="portrait"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <platform name="ios">
+    <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+  </platform>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+</widget>

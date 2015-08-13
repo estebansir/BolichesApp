@@ -1,0 +1,20 @@
+<ion-view view-title="CERCA DE TI" class="list-view-page" ng-controller="GeolocationCtrl">
+  <ion-content class "has-header" scroll="true">
+    <ui-gmap-google-map draggable="true" center='map.center' zoom='map.zoom'>
+
+      <ui-gmap-marker coords="marker.coords" idKey="1">
+      </ui-gmap-marker>
+
+    <ui-gmap-marker data-ng-repeat="marker in boliches" coords="marker" idKey="marker.id" icon="'http://maps.google.com/mapfiles/ms/micons/bar.png'" options="{labelClass:'marker-labels', labelAnchor:'12 60', 
+          labelContent: marker.nombre}">
+          
+        <window isIconVisibleOnClick="true">
+          <p>
+            AKJH
+          </p>
+        </window>
+      </ui-gmap-marker>
+
+  </ui-gmap-google-map>
+  </ion-content>
+</ion-view>
